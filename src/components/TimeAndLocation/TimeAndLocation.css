@@ -1,0 +1,15 @@
+.timeandlocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+}
+@media (max-width: 500px) {
+  .timeandlocation .location
+  { 
+  font-size: 25px;
+  }
+}
+
+ 

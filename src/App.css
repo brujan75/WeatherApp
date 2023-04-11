@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Source+Code+Pro:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  background-color: #393939;
+}
+.loader {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  height: 100%;
+}
+main {
+  min-height: 100vh;
+  width: 1000px;
+  box-shadow: 0 0 40px black;
+  padding: 0 20px;
+}
+.null-weather {
+  background: linear-gradient(
+    120deg,
+    rgb(182, 182, 182) 0%,
+    rgb(117, 117, 117) 100%
+  );
+}
+.clear-weather {
+  background-image: url("../src/assets/clear.webp");
+  background-size: cover;
+}
+.cloud-weather {
+  background-image: url("../src/assets/clouds.webp");
+  background-size: cover;
+}
+.rain-weather {
+  background-image: url("../src/assets/rain.webp");
+  background-size: cover;
+}
+.snow-weather {
+  background-image: url("../src/assets/snow.webp");
+  background-size: cover;
+}
+.haze-weather {
+  background-image: url("../src/assets/haze.webp");
+  background-size: cover;
+}
+.mist-weather {
+  background-image: url("../src/assets/mist.webp");
+  background-size: cover;
+}
+.drizzle-weather {
+  background-image: url("../src/assets/drizzle.webp");
+  background-size: cover;
+}
+.fog-weather {
+  background-image: url("../src/assets/fog.webp");
+  background-size: cover;
+}
+.thunderstorm-weather {
+  background-image: url("../src/assets/thunderstorm.webp");
+  background-size: cover;
+}
+
+@media (max-width: 550px) {
+  main {
+    background-position: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    padding: 0 5px;
+  }
+}

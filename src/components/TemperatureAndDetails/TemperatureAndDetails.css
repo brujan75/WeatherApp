@@ -1,0 +1,78 @@
+.temperatureanddetails {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.temperatureanddetails .second-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.temperatureanddetails .second-row .temp {
+  font-size: 4rem;
+}
+.temperatureanddetails .second-row img {
+  width: 80px;
+}
+.temperatureanddetails .second-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temperatureanddetails .second-row div div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.temperatureanddetails .third-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.temperatureanddetails .third-row div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+@media (max-width: 700px) {
+  .temperatureanddetails .second-row {
+    gap: 90px;
+  }
+}
+@media (max-width: 550px) {
+  .temperatureanddetails .third-row {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+@media (max-width: 520px) {
+  .temperatureanddetails .second-row {
+    gap: 70px;
+  }
+}
+@media (max-width: 450px) {
+  .temperatureanddetails .second-row {
+    gap: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .temperatureanddetails .second-row {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 10px;
+  }
+  .temperatureanddetails .second-row img
+  {
+    width: 100px;
+  }
+}
+ 
