@@ -30,7 +30,7 @@ function App() {
     if (weather.details == "Thunderstorm") return "thunderstorm-weather";
     if (weather.details == "Clear") return "clear-weather";
     if (weather.details == "Clouds") return "cloud-weather";
-    if (weather.details == "Rain") return "thunderstorm-weather";
+    if (weather.details == "Rain") return "rain-weather";
     if (weather.details == "Snow") return "snow-weather";
     if (weather.details == "Haze") return "haze-weather";
     if (weather.details == "Mist") return "mist-weather";
