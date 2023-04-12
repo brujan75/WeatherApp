@@ -48,7 +48,7 @@
     gap: 90px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 560px) {
   .temperatureanddetails .third-row {
     flex-direction: column;
     gap: 5px;
